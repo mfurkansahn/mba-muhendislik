@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MBA Mühendislik – Elektrik ve elektronik mühendisliği çözümleri: tesisat, arıza onarım, pano ve sigorta sistemleri, bakım ve enerji verimliliği." />
+  <title>MBA Mühendislik</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body id="top">
+  <!-- HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay aria-hidden="true"></div>
+
+      <a href="#anasayfa" class="logo" aria-label="MBA Mühendislik anasayfa">
+        <img src="./assets/images/mba.png" alt="MBA Mühendislik logo" />
+      </a>
+
+      <button class="menu-open-btn" data-menu-open-btn aria-label="Menüyü aç">
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar aria-label="Ana menü">
+        <button class="menu-close-btn" data-menu-close-btn aria-label="Menüyü kapat">
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#anasayfa" class="logo" aria-label="MBA Mühendislik anasayfa">
+          <img src="./assets/images/mba.png" alt="MBA Mühendislik logo" />
+        </a>
+
+        <ul class="navbar-list">
+          <li><a href="#anasayfa" class="navbar-link">Anasayfa</a></li>
+          <li><a href="#hakkinda" class="navbar-link">Hakkında</a></li>
+          <li><a href="#hizmetler" class="navbar-link">Hizmetler</a></li>
+          <li><a href="#iletisim" class="navbar-link">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- HERO -->
+      <section class="hero" id="anasayfa">
+        <div class="container">
+          <figure class="hero-banner">
+            <!-- Not: Görselin kendisi eğitim temalı olabilir; şimdilik alt metin elektrik odaklı düzenlendi. -->
+            <img src="./assets/images/ana.avif" alt="Elektrik mühendisi çalışma görseli" />
+          </figure>
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Güvenilir Enerji, Güçlü Gelecek</h1>
+            <p class="section-text">
+              Müşterilerimize kaliteli, güvenli ve sürdürülebilir elektrik çözümleri sunuyoruz. Yenilikçi teknolojilerle enerji ihtiyaçlarınızı karşılıyor, projelerinizi güçlendiriyoruz.
+            </p>
+            <!-- <a href="#hizmetler" class="btn btn-primary">Keşfet</a> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="hakkinda">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/png-clipart-electrical-engineering-electrician-electricity-field-work-s-electrical-wires-cable-logo-thumbnail.png" alt="Elektrik mühendisliği görseli" class="about-img" />
+            <img src="./assets/images/about-vector.svg" alt="Süsleyici vektör çizgisi" class="vector-line" />
+            <!-- <button class="play-btn" aria-label="Tanıtım videosu oynat"><ion-icon name="play"></ion-icon></button> -->
+          </figure>
+
+          <div class="about-content">
+            <h2 class="h2 about-title">Elektrik Çözümlerinizde Güven ve Başarı Sağlıyoruz!</h2>
+            <p class="section-text">
+              MBA Mühendislik, genç ve dinamik bir bakış açısıyla elektrik sektöründe modern ve güvenilir çözümler sunmaktadır. Alanında deneyimli kadrosu ile arıza onarımı, yeni tesisat kurulumu, bakım ve enerji verimliliği projeleri gibi geniş bir yelpazede hizmet vermektedir. Müşteri memnuniyetini ön planda tutan MBA Mühendislik, kaliteli işçilik, hızlı müdahale ve güncel teknolojileri kullanarak güvenli ve uzun ömürlü çözümler üretmeyi ilke edinmiştir.
+            </p>
+            <!-- <a href="#iletisim" class="btn btn-primary">Teklif Al</a> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES / DEPARTMENTS -->
+      <section class="departments" id="hizmetler">
+        <div class="container">
+          <img src="./assets/images/departmets-vector.svg" alt="Süsleyici vektör çizgisi" class="vector-line" />
+          <h2 class="h2 departments-title">Hizmetlerimiz</h2>
+
+          <ul class="departments-list">
+            <li>
+              <div class="departments-card">
+                <a href="#" class="card-banner" aria-label="Elektrik Tesisatı Kurulumu ve Yenileme">
+                  <figure>
+                    <img src="./assets/images/tesisat.png" alt="Elektrik tesisatı görseli" />
+                  </figure>
+                </a>
+                <a href="#">
+                  <h3 class="h3 card-title">Elektrik Tesisatı Kurulumu ve Yenileme</h3>
+                </a>
+                <p class="card-text">Konut, ofis ve endüstriyel tesislerde sıfırdan tesisat kurulumu ve mevcut tesisatın modernizasyonu.</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="departments-card">
+                <a href="#" class="card-banner" aria-label="Elektrik Panosu ve Sigorta Sistemleri">
+                  <figure>
+                    <img src="./assets/images/pano.jpg" alt="Elektrik panosu görseli" />
+                  </figure>
+                </a>
+                <a href="#">
+                  <h3 class="h3 card-title">Elektrik Panosu ve Sigorta Sistemleri</h3>
+                </a>
+                <p class="card-text">Yeni pano kurulumu, mevcut panoların yenilenmesi ve sigorta değişimi.</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="departments-card">
+                <a href="#" class="card-banner" aria-label="Arıza Tespit ve Onarım">
+                  <figure>
+                    <img src="./assets/images/arıza.jpg" alt="Arıza tespit ve onarım görseli" />
+                  </figure>
+                </a>
+                <a href="#">
+                  <h3 class="h3 card-title">Arıza Tespit ve Onarım</h3>
+                </a>
+                <p class="card-text">Elektrik kesintisi, kısa devre, priz ve aydınlatma arızalarının hızlı onarımı.</p>
+              </div>
+            </li>
+          </ul>
+          <!-- <a href="#iletisim" class="btn btn-primary">Tüm Hizmetleri Gör</a> -->
+        </div>
+      </section>
+
+      <!-- INSTRUCTOR / OWNER -->
+      <section class="instructor" aria-labelledby="owner-title">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="h2 instructor-title" id="owner-title">Mühendisimizle Tanışın</h2>
+            <!-- <a class="btn btn-primary" href="#iletisim">İletişime Geç</a> -->
+          </div>
+
+          <ul class="instructor-list">
+            <li>
+              <div class="instructor-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/mba-owner.jpeg" alt="Kurucu Mühendis Mahmut Akgül" />
+                </figure>
+                <a href="#">
+                  <h3 class="card-title">Mahmut Akgül</h3>
+                </a>
+                <p class="card-subtitle">Kurucu – Elektrik ve Elektronik Mühendisi</p>
+                <ul class="card-social-list" aria-label="Sosyal bağlantılar">
+                  <li>
+                    <a href="#" class="card-social-link" aria-label="Google profili">
+                      <ion-icon name="logo-google"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/mahmut-akg%C3%BCl-3a529621a/" target="_blank" rel="noopener" class="card-social-link" aria-label="LinkedIn profili">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="iletisim">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-link-box">
+          <ul class="footer-list">
+            <li>
+              <p class="footer-link-title">İletişim</p>
+            </li>
+            <li class="contact-item">
+              <span>Telefon: </span>
+              <a href="tel:+905463876387" class="contact-link">+90 546 387 63 87</a>
+            </li>
+            <li class="contact-item">
+              <span>E‑posta: </span>
+              <a href="mailto:mahmutakgl06@gmail.com" class="contact-link">mahmutakgl06@gmail.com</a>
+            </li>
+            <li class="contact-item">
+              <span>Adres: </span>
+              <address class="contact-link">Ehlibeyt, Ceyhun Atuf Kansu Cd. Gözde Plaza No:130/52, 06530 Çankaya/Ankara</address>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2025 <a href="#">MBA Mühendislik</a>. Tüm hakları saklıdır.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GO TO TOP -->
+  <a href="#top" class="go-top" data-go-top aria-label="Yukarı çık">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <!-- scripts -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
